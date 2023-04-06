@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import NavBar from './components/NavBar';
-import Recipes from './components/Recipes';
-import Favorites from './components/Favorites';
-import ShoppingList from './components/ShoppingList';
+import Recipes from './pages/Recipes';
+import Favorites from './pages/Favorites';
+import ShoppingList from './pages/ShoppingList';
 import { Stack } from '@mui/system';
 
 function App() {
